@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tips | Wellness & Lifestyle Digest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    
+    <header class="site-header" role="banner">
+        <div class="container">
+            <div class="header__inner">
+                <a href="/" class="logo">Wellness Digest</a>
+                
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+                    <span class="visually-hidden">Menu</span>
+                    <span class="hamburger"></span>
+                </button>
+                
+                <nav id="primary-nav" class="nav" aria-label="Primary">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="health-tips.html" class="nav__link" aria-current="page">Health Tips</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Student Stories</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="main-content">
+        <div class="container">
+            <div class="visually-hidden">You are on Health Tips</div>
+            
+            <header class="page-header">
+                <h1>Health Tips</h1>
+                <p class="page-intro">Practical advice for maintaining your physical and mental well-being.</p>
+                
+                <div class="filter-tags">
+                    <span class="filter-tags__label">Filter by category:</span>
+                    <div class="filter-tags__list">
+                        <a href="#" class="tag" aria-pressed="true">All</a>
+                        <a href="#" class="tag">Nutrition</a>
+                        <a href="#" class="tag">Exercise</a>
+                        <a href="#" class="tag">Mindfulness</a>
+                        <a href="#" class="tag">Sleep</a>
+                    </div>
+                </div>
+            </header>
+
+            <section class="article-grid" aria-labelledby="article-grid-heading">
+                <h2 id="article-grid-heading" class="visually-hidden">Articles</h2>
+                
+                <div class="grid grid--3">
+                    <!-- Article 1 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Healthy breakfast options"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Nutrition</span>
+                            <h3 class="article-card__title">5 Quick & Healthy Breakfast Ideas</h3>
+                            <p class="article-card__excerpt">Start your day right with these nutritious breakfast options that take less than 10 minutes to prepare.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about Quick & Healthy Breakfast Ideas</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Person doing desk stretches"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Exercise</span>
+                            <h3 class="article-card__title">Desk Stretches for Long Study Sessions</h3>
+                            <p class="article-card__excerpt">Combat stiffness and improve circulation with these simple stretches you can do at your desk.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about Desk Stretches</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Person meditating"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Mindfulness</span>
+                            <h3 class="article-card__title">5-Minute Meditation for Stress Relief</h3>
+                            <p class="article-card__excerpt">Learn a simple meditation technique to reduce stress and improve focus during busy days.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about 5-Minute Meditation</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 4 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Healthy snacks on a table"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Nutrition</span>
+                            <h3 class="article-card__title">Smart Snacking for Energy Boosts</h3>
+                            <p class="article-card__excerpt">Discover the best snacks to maintain steady energy levels throughout your study sessions.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about Smart Snacking</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 5 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Person doing yoga"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Exercise</span>
+                            <h3 class="article-card__title">Yoga Poses for Better Posture</h3>
+                            <p class="article-card__excerpt">Improve your posture and reduce back pain with these simple yoga poses perfect for students.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about Yoga Poses for Posture</span></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 6 -->
+                    <article class="article-card">
+                        <div class="article-card__image" role="img" aria-label="Alarm clock and sleep mask"></div>
+                        <div class="article-card__content">
+                            <span class="article-card__category">Sleep</span>
+                            <h3 class="article-card__title">Sleep Hygiene for Better Rest</h3>
+                            <p class="article-card__excerpt">Create the perfect sleep environment and routine for more restful nights and productive days.</p>
+                            <a href="#" class="article-card__link">Read more<span class="visually-hidden"> about Sleep Hygiene</span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="pagination">
+                <a href="#" class="pagination__link pagination__link--disabled" aria-disabled="true">Previous</a>
+                <a href="#" class="pagination__link pagination__link--active" aria-current="page">1</a>
+                <a href="#" class="pagination__link">2</a>
+                <a href="#" class="pagination__link">3</a>
+                <a href="#" class="pagination__link">Next</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h2 class="footer__title">Wellness Digest</h2>
+                    <p>Your guide to a healthier student life</p>
+                </div>
+                
+                <nav class="footer__nav" aria-label="Footer">
+                    <ul class="footer__nav-list">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="social-links">
+                    <h3 class="visually-hidden">Connect with us</h3>
+                    <ul class="social-links__list">
+                        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Wellness Digest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
